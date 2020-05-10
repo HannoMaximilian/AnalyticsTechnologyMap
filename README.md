@@ -1,4 +1,4 @@
-#AnalyticsTechnologyMap
+# AnalyticsTechnologyMap
 
 This project tries to understand more about Analytics and Big Data technologies such as Spark, MongoDB or Tableau by analyzing how reddit users talk about them. The goal of the project is to give information about which technolgogies are similar to other technolgies, and in what technolgies are used together. Updates about what has already been implemented are given.
 
