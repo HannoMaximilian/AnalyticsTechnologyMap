@@ -1,6 +1,6 @@
 # AnalyticsTechnologyMap
 
-This project tries to understand more about Analytics and Big Data technologies such as Spark, MongoDB or Tableau by analyzing how reddit users talk about them. The goal of the project is to give information about which technolgogies are similar to other technolgies, and in what technolgies are used together. Updates about what has already been implemented are given.
+This project tries to understand more about Analytics and Big Data technologies such as Spark, MongoDB or Tableau by analyzing how reddit users talk about them. The goal of the project is to give information about which technolgogies are similar to other technolgies, and which technolgies are often used together. Updates about what has already been implemented are given.
 
 Currently the repository contains:
     - get_data.py: A python script that uses the pushlift API to get comments and posts from reddit.com and adds them to a SQLite database
