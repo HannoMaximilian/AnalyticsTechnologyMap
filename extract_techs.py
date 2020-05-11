@@ -11,14 +11,14 @@ import time
 
 parallel_processes = 4
 
-def extract_techs(query_batch, tech_set):
+def extract_techs(query_batch, extraction_dict):
     return_list = []
     for _id, content in query_batch:
         techs = []
         content = content.lower()
-        for tech in tech_set:
+        for tech in extraction_dict.keys():
             if tech in content:
-                techs.append(tech)
+                techs.append(extraction_dict[tech])
         if len(techs)>1:
             return_list.append((_id, techs))
     print(len(return_list))
@@ -29,12 +29,21 @@ def run():
     conn = sqlite3.connect('C:\\MeinCode\\reddit_scraper\\reddit.db')
 
     curs = conn.cursor()
-
+    extraction_dict = {}
 
     with open("C:\\MeinCode\\reddit_scraper\\technologies.json") as json_file:
         technologies_json = json.load(json_file)
     tech_set = technologies_json.keys()
-    tech_set = {x.lower() for x in tech_set}    #Make it lower case
+
+    # Initiate the extraction dict. I will extract the technologie names from 
+    # a lowercase text, thats why I have to search with lowercase names as well
+    extraction_dict = {tech.lower(): tech for tech in tech_set}
+
+    # I will add my aliases to the extraction dict. I want some names to correspond
+    # to the same technology, like Spark and Spark2
+    for element in tech_set:
+        for alias in technologies_json[element]['aliases']:
+            extraction_dict[alias.lower()] = element
     m = multiprocessing.Manager()
     queue = m.Queue()
     curs.execute("SELECT * FROM all_content")
@@ -54,7 +63,7 @@ def run():
             if not query_batch:
                 fetch = False
                 continue
-            pool.apply_async(extract_techs, (query_batch, tech_set), callback=my_callback)
+            pool.apply_async(extract_techs, (query_batch, extraction_dict), callback=my_callback)
             fetch = query_batch # An empty list corresponds to Boolean: False
         time.sleep(5)
         #results = [res.get() for res in results]
