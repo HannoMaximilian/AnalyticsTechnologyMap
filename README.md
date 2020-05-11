@@ -10,3 +10,4 @@ Currently the repository contains:
   - create_usefull_views.py:     A python script that uses SQLite queries to order the data in view that are usefull for analysis
   - technologies.json:     A json file that contains technologies I find interesting for the analysis (first draft)
   - extract_techs.py:     A python script that extracts the technologies given in "technologies.json" from the reddit posts and comments
+  - Joint_Occurrence_Heatmap.ipynb:	A jupyter notebook that uses a heatmap to visualize how often two of the technologies that are listed in "technologies.json" appear together in the posts and comments safed in the SQL database 
