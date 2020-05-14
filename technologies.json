@@ -1,4 +1,36 @@
-{
+{   
+    "Database": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "SQL Database": {
+        "families": ["Family"],
+        "aliases": ["SQL"]
+    },
+    "NoSQL Database": {
+        "families": ["Family"],
+        "aliases": ["NoSQL"]
+    },
+    "Machine Learning": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Hadoop": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Visualization": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Big Data": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Cloud": {
+        "families": ["Family"],
+        "aliases": []
+    },
     "SQLite": {
         "families": ["Database", "SQL Database"],
         "aliases": []
@@ -210,10 +242,6 @@
     },
     "Dask": {
         "families": ["ML Training"],
-        "aliases": []
-    },
-    "Hadoop": {
-        "families": ["Core Hadoop"],
         "aliases": []
     },
     "AWS": {

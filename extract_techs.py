@@ -70,7 +70,7 @@ def run():
     #print(results)
 
     with conn:
-        curs.execute("""CREATE TABLE IF NOT EXISTS techs_extracted (
+        curs.execute("""CREATE TABLE IF NOT EXISTS techs_extracted_v2 (
                         id TEXT PRIMARY KEY,
                         tech_list TEXT
                         )""")
@@ -79,7 +79,7 @@ def run():
             for res in solution:
                 _id, _list = res
                 _list = str(_list)
-                curs.execute("""INSERT OR IGNORE INTO techs_extracted VALUES (:id, :tech_list)""",
+                curs.execute("""INSERT OR IGNORE INTO techs_extracted_v2 VALUES (:id, :tech_list)""",
                 {'id': _id, 
                 'tech_list': _list
                 })

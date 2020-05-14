@@ -11,3 +11,7 @@ Currently the repository contains:
   - technologies.json:     A json file that contains technologies I find interesting for the analysis (first draft)
   - extract_techs.py:     A python script that extracts the technologies given in "technologies.json" from the reddit posts and comments
   - Joint_Occurrence_Heatmap.ipynb:	A jupyter notebook that uses a heatmap to visualize how often two of the technologies that are listed in "technologies.json" appear together in the posts and comments safed in the SQL database 
+
+The following heeatmap shows, how often two technologies appeared together in a comment or post (obviously there are many cells with a much larger number than 20). Basis for this visualization are comments and posts that have a vote larger or equal to one and that were written in the last two years in the subreddits [MaschineLearning', 'webdev', 'bigdata', 'datascience', 'analytics' or  'ArtificialInteligence'. See jupyter notebook "Joint_Occurrence_Heatmap.ipynb".
+
+![Technology Heatmap](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/heatmap.png)
