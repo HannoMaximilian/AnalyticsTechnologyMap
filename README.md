@@ -15,3 +15,8 @@ Currently the repository contains:
 The following heeatmap shows, how often two technologies appeared together in a comment or post (obviously there are many cells with a much larger number than 20). Basis for this visualization are comments and posts that have a vote larger or equal to one and that were written in the last two years in the subreddits [MaschineLearning', 'webdev', 'bigdata', 'datascience', 'analytics' or  'ArtificialInteligence'. See jupyter notebook "Joint_Occurrence_Heatmap.ipynb".
 
 ![Technology Heatmap](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/heatmap.png)
+
+This is the current version of the Analytics Technology Map:
+
+![Analytics Technology Map](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/3D_iter50_perplex30.png)
+
