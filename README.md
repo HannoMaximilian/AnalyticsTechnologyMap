@@ -20,3 +20,5 @@ This is the current version of the Analytics Technology Map:
 
 [<img src="https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/TechnologyMapV2.jpg">](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/techmap_V2_threshold015.html)
 *Purple: Visualization and BI, Red: Data Processing, Blue: Database, Yellow: Cloud Service, Olive: Web App, Black: Technology Family, Grey: Othes*
+
+For a zoomable Version of the map, please download and open [techmap_V2_threshold015.html](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/techmap_V2_threshold015.html "Technology Map Version 2")
