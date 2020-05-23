@@ -18,5 +18,9 @@ The following heeatmap shows, how often two technologies appeared together in a 
 
 This is the current version of the Analytics Technology Map:
 
+[<img src="http://www.google.com.au/images/nav_logo7.png">](http://google.com.au/)
+
+[![Analytics Technology Map](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+
 ![Analytics Technology Map](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/3D_iter50_perplex30.png)
 
