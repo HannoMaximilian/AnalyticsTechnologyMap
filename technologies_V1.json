@@ -1,0 +1,264 @@
+{   
+    "Database": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "SQL Database": {
+        "families": ["Family"],
+        "aliases": ["SQL"]
+    },
+    "NoSQL Database": {
+        "families": ["Family"],
+        "aliases": ["NoSQL"]
+    },
+    "Machine Learning": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Hadoop": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Visualization": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Big Data": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "Cloud": {
+        "families": ["Family"],
+        "aliases": []
+    },
+    "SQLite": {
+        "families": ["Database", "SQL Database"],
+        "aliases": []
+    },
+    "MySQL": {
+        "families": ["Database", "SQL Database"],
+        "aliases": []
+    },
+    "PostgreSQL": {
+        "families": ["Database", "SQL Database"],
+        "aliases": ["Postgres"]
+    },
+    "Microsoft Access": {
+        "families": ["Database", "SQL Database"],
+        "aliases": []
+    },
+    "MariaDB": {
+        "families": ["Database", "SQL Database"],
+        "aliases": []
+    },
+    "Amazon Aurora": {
+        "families": ["Database", "SQL Database", "Amazon"],
+        "aliases": ["Aurora"]
+    },
+    "Google Cloud SQL": {
+        "families": ["Database", "SQL Database", "Google"],
+        "aliases": ["Cloud SQL"]
+    },
+    "Cloud Spanner": {
+        "families": ["Database", "SQL Database", "Google"],
+        "aliases": []
+    },
+    "HDFS": {
+        "families": ["Database", "NoSQL Database", "Big Data", "Core Hadoop"],
+        "aliases": ["Hadoop Distributed Filing System"]
+    },
+    "HBase": {
+        "families": ["Database", "NoSQL Database", "Big Data", "Core Hadoop"],
+        "aliases": []
+    },
+    "Cassandra": {
+        "families": ["Database", "NoSQL Database", "Big Data"],
+        "aliases": []
+    },
+    "MongoDB": {
+        "families": ["Database", "NoSQL Database", "Big Data"],
+        "aliases": ["Mongo DB"]
+    },
+    "DynamoDB": {
+        "families": ["Database", "NoSQL Database", "Big Data", "Amazon"],
+        "aliases": []
+    },
+    "S3": {
+        "families": ["Database", "Amazon"],
+        "aliases": []
+    },
+
+    "Cloud Bigtable": {
+        "families": ["Database", "NoSQL Database", "Big Data", "Google"],
+        "aliases": ["Bigtable"]
+    },
+    "Cloud Firestore": {
+        "families": ["Database", "NoSQL Database", "Big Data", "Google"],
+        "aliases": ["Firestore"]
+    },
+    "Amazon SageMaker": {
+        "families": ["ML Training", "ML Deployment", "Amazon"],
+        "aliases": ["Sagemaker"]
+    },
+    "Amazon Redshift": {
+        "families": ["Data Warehouse", "Amazon"],
+        "aliases": ["Redshift"]
+    },
+    "Amazon EC2": {
+        "families": ["Server", "Amazon"],
+        "aliases": ["EC2"]
+    },
+    "Amazon Lightsail": {
+        "families": ["Server", "Amazon"],
+        "aliases": []
+    },
+    "AWS Lambda": {
+        "families": ["Processing", "Amazon"],
+        "aliases": []
+    },
+    "Amazon EMR": {
+        "families": ["Big Data", "Amazon"],
+        "aliases": []
+    },
+    "BigQuery": {
+        "families": ["Data Warehouse", "Google"],
+        "aliases": []
+    },
+    "Google Cloud Platform": {
+        "families": ["Google", "Cloud Service"],
+        "aliases": ["GCP"]
+    },
+    "Apache Pig": {
+        "families": ["Core Hadoop", "Query Engine"],
+        "aliases": ["Pig"]
+    },
+    "Apache Hive": {
+        "families": ["Core Hadoop", "Query Engine"],
+        "aliases": []
+    },
+    "Spark": {
+        "families": ["Core Hadoop", "ML Training", "Streaming", "Query Engine"],
+        "aliases": ["Spark2"]
+    },
+    "Apache Sqoop": {
+        "families": ["Data"],
+        "aliases": ["Sqoop"]
+    },
+    "MapReduce": {
+        "families": ["Core Hadoop", "Processing"],
+        "aliases": ["Map reduce"]
+    },
+    "Apache Storm": {
+        "families": ["Streaming"],
+        "aliases": []
+    },
+    "Elasticsearch": {
+        "families": ["Query Engine"],
+        "aliases": []
+    },
+    "Apache Kafka": {
+        "families": ["Streaming"],
+        "aliases": ["Kafka"]
+    },
+    "Zeppelin": {
+        "families": ["Visualization", "Query Engine"],
+        "aliases": []
+    },
+    "Apache Drill": {
+        "families": ["Query Engine"],
+        "aliases": []
+    },
+    "Presto": {
+        "families": ["Query Engine"],
+        "aliases": []
+    },
+    "Flink": {
+        "families": ["Streaming"],
+        "aliases": []
+    },
+    "Docker": {
+        "families": ["Container"],
+        "aliases": []
+    },
+    "Kubernetes": {
+        "families": ["Container"],
+        "aliases": []
+    },
+    "Tableau": {
+        "families": ["BI"],
+        "aliases": []
+    },
+    "Domo": {
+        "families": ["BI"],
+        "aliases": []
+    },
+    "Power BI": {
+        "families": ["BI"],
+        "aliases": []
+    },
+    "Sisense": {
+        "families": ["BI"],
+        "aliases": []
+    },
+    "Qlik": {
+        "families": ["BI"],
+        "aliases": ["Qliksense"]
+    },
+    "Flask": {
+        "families": ["Backend"],
+        "aliases": []
+    },
+    "Django": {
+        "families": ["Backend"],
+        "aliases": []
+    },
+    "D3.js": {
+        "families": ["Visualization", "Frontend"],
+        "aliases": []
+    },
+    "Vercel": {
+        "families": ["Cloud Application Platform"],
+        "aliases": ["Zeit"]
+    },
+    "Heroku": {
+        "families": ["Cloud Application Platform"],
+        "aliases": []
+    },
+    "Stramlit": {
+        "families": ["ML Deployment"],
+        "aliases": []
+    },
+    "Vue.js": {
+        "families": ["Javascript Framework"],
+        "aliases": []
+    },
+    "React.js": {
+        "families": ["Javascript Framework"],
+        "aliases": []
+    },
+    "Angular.js": {
+        "families": ["Javascript Framework"],
+        "aliases": []
+    },
+    "Dask": {
+        "families": ["ML Training"],
+        "aliases": []
+    },
+    "AWS": {
+        "families": ["Cloud Service", "Cloud Application Platform", "Amazon"],
+        "aliases": ["Amazon Web Services"]
+    },
+    "Azure": {
+        "families": ["Cloud Service", "Cloud Application Platform", "Microsoft"],
+        "aliases": []
+    },
+    "Plotly": {
+        "families": ["Visualization"],
+        "aliases": []
+    },
+    "Matplotlib": {
+        "families": ["Visualization"],
+        "aliases": ["pyplot"]
+    }
+
+}

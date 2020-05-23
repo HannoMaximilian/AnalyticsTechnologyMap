@@ -31,7 +31,7 @@ def run():
     curs = conn.cursor()
     extraction_dict = {}
 
-    with open("C:\\MeinCode\\reddit_scraper\\technologies.json") as json_file:
+    with open("C:\\MeinCode\\reddit_scraper\\technologies_V2.json") as json_file:
         technologies_json = json.load(json_file)
     tech_set = technologies_json.keys()
 
@@ -70,7 +70,7 @@ def run():
     #print(results)
 
     with conn:
-        curs.execute("""CREATE TABLE IF NOT EXISTS techs_extracted_v2 (
+        curs.execute("""CREATE TABLE IF NOT EXISTS techs_extracted_V2 (
                         id TEXT PRIMARY KEY,
                         tech_list TEXT
                         )""")
@@ -79,7 +79,7 @@ def run():
             for res in solution:
                 _id, _list = res
                 _list = str(_list)
-                curs.execute("""INSERT OR IGNORE INTO techs_extracted_v2 VALUES (:id, :tech_list)""",
+                curs.execute("""INSERT OR IGNORE INTO techs_extracted_V2 VALUES (:id, :tech_list)""",
                 {'id': _id, 
                 'tech_list': _list
                 })
