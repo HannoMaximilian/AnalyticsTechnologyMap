@@ -10,6 +10,9 @@ This is the current version of the Analytics Technology Map:
 
 For a zoomable Version of the map, please download and open [techmap_V2_threshold015.html](https://github.com/HannoMaximilian/AnalyticsTechnologyMap/blob/master/Visualizations/techmap_V2_threshold015.html "Technology Map Version 2")
 
+
+------------------------------
+
 This project tries to understand more about Analytics and Big Data technologies such as Spark, MongoDB or Tableau by analyzing how reddit users talk about them. The goal of the project is to give information about which technolgogies are similar to other technolgies, and which technolgies are often used together. Updates about what has already been implemented are given.
 
 Currently the repository contains:
